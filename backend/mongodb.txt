@@ -1,4 +1,0 @@
-ahmed
-asd12345
-mongodb+srv://ahmed:asd12345@cluster0.elxqp.mongodb.net/proshop
-
