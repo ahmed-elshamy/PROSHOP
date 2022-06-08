@@ -11,7 +11,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "data:import": "node backend/seeder",
     "data:destroy": "node backend/seeder -d",
-    "heroku-postbuild": "cd frontend && NPM_CONFIG_PRODUCTION=false npm install && npm run build"
+    "heroku-postbuild": "--prefix frontend && NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "author": "The Pirate",
   "license": "MIT",
