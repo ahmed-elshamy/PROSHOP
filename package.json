@@ -2,10 +2,6 @@
   "name": "proshop",
   "version": "1.0.0",
   "description": "MERN shopping cart app",
-  "engine": {
-    "node": "14.17.5",
-    "npm": "6.14.14"
-  },
   "main": "server.js",
   "type": "module",
   "scripts": {
